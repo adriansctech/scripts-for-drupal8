@@ -5,4 +5,5 @@
 #and check next 
 #vendor/bin/phpcs -i
 #The installed coding standards are PEAR, Zend, PSR12, Squiz, MySource, PSR2, PSR1, DrupalPractice and Drupal
-vendor/bin/phpcbf --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md,yml ./web/modules/custom/reset_roles
+#Now change '[custom-module-name]' to your custom module name
+vendor/bin/phpcbf --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md,yml ./web/modules/custom/'[custom-module-name]'
