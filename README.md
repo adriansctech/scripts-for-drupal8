@@ -24,4 +24,4 @@ This script will not correct the JS or twig files, to check the files with exten
 This script will uninstall, install the module that we indicate and clear the cache of the site to finalize
 
 ## update-drupal-core.sh
-This script will update the drupal core, download the code via composer, put the site in maintenance mode, then updatedb and finally qitará the maintenance mode and clear the system cache. Keep in mind to make a copy of the database and put the site in maintenance mode.
+This script will update the drupal core, download the code via composer, put the site in maintenance mode, then updatedb and finally remove the maintenance mode and clear the system cache. Keep in mind to make a copy of the database and put the site in maintenance mode.
