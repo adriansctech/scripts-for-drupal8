@@ -17,6 +17,7 @@ The files you will fix have the following extensions:
 * txt
 * md
 * yml
+* JS
 
 This script uses [ESLINT (included in the drupal core)](https://www.drupal.org/docs/develop/standards/javascript/eslint-settings) to check the syntax of the JS files, it must be installed by executing 'yarn install' inside the core folder of our drupal project.
 
