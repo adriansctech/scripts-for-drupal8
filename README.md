@@ -25,3 +25,17 @@ This script will uninstall, install the module that we indicate and clear the ca
 
 ## update-drupal-core.sh
 This script will update the drupal core, download the code via composer, put the site in maintenance mode, then updatedb and finally remove the maintenance mode and clear the system cache. Keep in mind to make a copy of the database and put the site in maintenance mode.
+
+## drupal-console.sh
+When this script is executed it will show a menu with different useful options for the system that will be executed through "drupal console".
+
+The options are the following:
+* Display site status
+* Display sistem site info
+* Check updates
+* Generate module
+* Generate controller
+* Generate form
+* Generate FORM_ALTER of form_ID_ALTER
+* Generate service
+* Generate theme
