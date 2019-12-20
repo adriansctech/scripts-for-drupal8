@@ -18,7 +18,7 @@ The files you will fix have the following extensions:
 * md
 * yml
 
-This script will not correct the JS or twig files, to check the files with extension js, it has to be done with [ESLINT (node.js)](https://www.drupal.org/docs/develop/standards/javascript/eslint-settings) and execute the [commands to check each JS file](https://eslint.org/docs/user-guide/getting-started#installation-and-usage).
+This script uses [ESLINT (included in the drupal core)](https://www.drupal.org/docs/develop/standards/javascript/eslint-settings) to check the syntax of the JS files, it must be installed by executing 'yarn install' inside the core folder of our drupal project.
 
 ## install-module.sh
 This script will uninstall, install the module that we indicate and clear the cache of the site to finalize
